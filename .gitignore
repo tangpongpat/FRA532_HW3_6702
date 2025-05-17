@@ -1,0 +1,39 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+yolo_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ultralytics / YOLO training outputs
+runs/
+datasets/
+logs/
+
+# Model weights and outputs
+*.pt
+*.onnx
+*.tflite
+*.weights
+*.ckpt
+
+# Media files (can be large; ignore unless needed)
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+
+# IDE/editor settings
+.vscode/
+.idea/
